@@ -1,0 +1,22 @@
+{
+  "name": "tests",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$properties": {
+        "LoadStringEnabled": true
+      },
+      "RunTests": {
+        "$path": "scripts/tasks/run-tests.luau"
+      }
+    },
+    "ReplicatedStorage": {
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Src": {
+        "$path": "src"
+      }
+    }
+  }
+}

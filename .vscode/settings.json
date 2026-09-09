@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        ".luaurc": "json"
+    },
+    "editor.defaultFormatter": "JohnnyMorganz.stylua",
+    "editor.formatOnSave": true
+}

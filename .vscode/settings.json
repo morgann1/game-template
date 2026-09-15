@@ -3,5 +3,6 @@
         ".luaurc": "json"
     },
     "editor.defaultFormatter": "JohnnyMorganz.stylua",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "luau-lsp.fflags.enableNewSolver": true
 }

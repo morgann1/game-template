@@ -1,4 +1,6 @@
 {
+  "$schema": "https://morgann1.github.io/better-rojo-schema/schema.json",
+
   "name": "game-template",
   "tree": {
     "$className": "DataModel",

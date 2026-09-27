@@ -1,5 +1,5 @@
 --!strict
--- Adapted from Roblox/gear. See scripts/ROBLOX-GEAR-LICENSE.txt.
+-- Runs inside Roblox Studio through run-in-roblox. Errors fail the run.
 
 const ReplicatedStorage = game:GetService("ReplicatedStorage")
 
@@ -13,7 +13,9 @@ const status, result = Jest.runCLI(root, {
 
 if status ~= "Resolved" then
 	print(result)
-	return false
+	error("Jest did not finish")
 end
 
-return result.results.numFailedTestSuites == 0 and result.results.numFailedTests == 0
+if result.results.numFailedTestSuites > 0 or result.results.numFailedTests > 0 then
+	error("Tests failed")
+end

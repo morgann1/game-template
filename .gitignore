@@ -10,7 +10,6 @@ sourcemap.json
 /Packages/
 /globalTypes.d.luau
 /tests.rbxl
-/.env
 
 # Wally files
 Packages/

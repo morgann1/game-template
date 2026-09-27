@@ -7,7 +7,7 @@ local project = require("@root/project")
 local run = require("@scripts/lib/run")
 
 downloadPinned.downloadPinned(
-	`https://raw.githubusercontent.com/JohnnyMorganz/luau-lsp/{project.LUAU_LSP_COMMIT}/scripts/globalTypes.d.lua`,
+	`https://raw.githubusercontent.com/JohnnyMorganz/luau-lsp/{project.LUAU_LSP_COMMIT}/scripts/globalTypes.d.luau`,
 	project.GLOBAL_DEFS_PATH,
 	project.LUAU_LSP_GLOBAL_TYPES_SHA256
 )

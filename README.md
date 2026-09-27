@@ -16,6 +16,14 @@ rojo serve
 
 For more help, check out [the Rojo documentation](https://rojo.space/docs).
 
+## Rename the project
+
+```bash
+lute scripts/rename.luau my-game [username]
+```
+
+This sets the Rojo project name to `my-game` and the Wally package to `username/my-game` in `wally.toml` and `wally.lock`. Without a username, it uses the GitHub account from `wally login`. Names can only contain lowercase letters, digits and `-`.
+
 ## Run tests
 
 Install dependencies with `lute scripts/install.luau`. Tests need Roblox Studio installed and signed in.

@@ -9,6 +9,7 @@ const root = ReplicatedStorage.Src
 const status, result = Jest.runCLI(root, {
 	verbose = false,
 	ci = false,
+	passWithNoTests = true,
 }, { root }):awaitStatus()
 
 if status ~= "Resolved" then

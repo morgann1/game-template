@@ -3,8 +3,8 @@ return table.freeze({
 	SCRIPTS_PATH = "scripts",
 
 	GLOBAL_DEFS_PATH = "globalTypes.d.luau",
-	LUAU_LSP_COMMIT = "2f42ede46764cfcc6ad569a395c38bbfd3878342",
-	LUAU_LSP_GLOBAL_TYPES_SHA256 = "7db9cd4fe55a4d26f3f7d5a39b6279a376f95a6c055c71d5591c26a1d525aaf2",
+	LUAU_LSP_COMMIT = "0382dc76ca9b73df3c8e7c9cd85a8dd493cbd0ae",
+	LUAU_LSP_GLOBAL_TYPES_SHA256 = "2857efa8245485f8c25c19c018ee1ef9b46afab4efd2ea70fc3257cd3faf7080",
 
 	TESTS_PROJECT_PATH = "tests.project.json",
 })
